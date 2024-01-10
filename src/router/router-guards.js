@@ -1,4 +1,3 @@
-// @/router/router-guards.js
 import { useAuthStore } from '@/stores/authStore';
 
 export function authGuard(to, from, next) {

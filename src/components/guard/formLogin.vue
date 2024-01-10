@@ -60,9 +60,9 @@ const login = async () => {
 
 <template>
     <v-app id="inspire">
+        <v-img src="@/assets/img/loginBackground.png">
         <v-main>
-            <v-container class="fill-height" fluid>
-                <v-row align="center" justify="center">
+            <v-container :style="{ backgroundImage: 'src(@/assets/img/loginBackground.png)' }" class="fill-height" fluid>                <v-row align="center" justify="center">
                     <v-col cols="12" sm="8" md="4">
                         <v-card class="elevation-12">
                             <v-toolbar class="v-toolbar">
@@ -86,6 +86,7 @@ const login = async () => {
                 </v-row>
             </v-container>
         </v-main>
+        </v-img>
     </v-app>
 </template>
 

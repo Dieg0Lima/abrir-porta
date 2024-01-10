@@ -1,5 +1,5 @@
 <script>
-import formLogin from '@/components/log/formLogin.vue';
+import formLogin from '@/components/guard/formLogin.vue';
 
 export default {
     name: 'UserLogin',

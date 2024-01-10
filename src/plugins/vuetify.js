@@ -1,9 +1,14 @@
+import '@fortawesome/fontawesome-free/css/all.css'
 import { createVuetify } from "vuetify";
-import { aliases, mdi } from "vuetify/iconsets/mdi";
+import { aliases, fa } from 'vuetify/iconsets/fa'
 
 const vuetify = createVuetify({
   icons: {
-    iconfont: "mdi",
+    defaultSet: 'fa',
+    aliases,
+    sets: {
+      fa,
+    },
   },
 });
 
